@@ -6,7 +6,7 @@ Vulkan Flocking: compute and shading in one pipeline!
 * Xiang Deng
 * Tested on:  Windows 10-Home, i7-6700U @ 2.6GHz 16GB, GTX 1060 6GB (Personal Computer)
 
-[![](img/e.gif) ] 
+![](img/e.gif) 
 
 * Analysis 
 
@@ -14,7 +14,7 @@ Vulkan Flocking: compute and shading in one pipeline!
 generating pipelines and commands? HINT: this may relate to something in the
 comments about some components using pre-allocated GPU memory.
 * A: For efficiency, Vulkan uses pre-allocated command pool on GPU. Explicit descriptors is thus needed
-preallocation prior to the run time (to avoid the overhead).
+for preallocation prior to the run time (to avoid the overhead).
 
 * Q: Describe a situation besides flip-flop buffers in which you may need multiple
 descriptor sets to fit one descriptor layout.
